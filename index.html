@@ -22,31 +22,25 @@
   <body>
      <nav class="navbar">
       <ul class="navbar-links">
-        <li class="navbar-link"><a href="#" class="navbar-anchor">link</a></li>
-        <li class="navbar-link"><a href="#" class="navbar-anchor">link</a></li>
-        <li class="navbar-link"><a href="#" class="navbar-anchor">link</a></li>
-        <li class="navbar-link"><a href="#" class="navbar-anchor">link</a></li>
-        <li class="navbar-link"><a href="#" class="navbar-anchor">link</a></li>
+        <li class="navbar-link"><a href="./index.html" class="navbar-anchor">home</a></li>
+        <li class="navbar-link"><a href="#AboutMe" class="navbar-anchor">about</a></li>
+        <li class="navbar-link"><a href="#Skill" class="navbar-anchor">skills</a></li>
+        <li class="navbar-link"><a href="#card-container" class="navbar-anchor">portfolio</a></li>
+        <li class="navbar-link"><a href="#Testimonials" class="navbar-anchor">testimonials</a></li>
+        <li class="navbar-link"><a href="#contact" class="navbar-anchor">contact</a></li>
       </ul>
-      <button class="navbar-button" onclick="toggleNavbar()">+</button>
+      <button class="navbar-button" onclick="toggleNavbar()"></button>
     </nav>
-
-<div class="landing">
-  <h1>Hello World</h1>
-</div>
-
-<div class="landing">
-  <h1>More Stuff</h1>
 </div>
     <section class="landingpage">
         <div class="container">
           <div class="Main-head" id="Main-head">
             <h1 style="color: #caed89;">Kiyaamodien Khan  </h1>
-            <h2 style="color: #caed89;">an Inspiring Software Developer.</h2>
+            <h2 style="color: #caed89;">an Aspiring Software Developer.</h2>
           </div>
         </div>
     </section>
-    <section class="AboutMe" id="AbutMe">
+    <section class="AboutMe" id="AboutMe">
       <div>
           <h1 class="a">About Me</h1>
       </div>
@@ -77,7 +71,9 @@
       </div>
     </section>
     <div class="Skill" id="Skill">
-      <h1>Skills</h1>
+      <h1 class="skill-heads">Skills</h1>
+      <div class="left">
+         
       <h2>Soft Skills</h2>
       <p class="p">
         Teamwork <br />
@@ -86,13 +82,39 @@
       </p>
       <br>
       <h2>Technical Skills</h2>
-      <p class="p">
-        Android <br />
-        Microsoft Office – basic <br />
-        Ununtu-Linux
-      </p>
-      <br>
-      <h1>Educational Background</h1>
+      <div class="p" >
+        <p >
+          <i class="fab fa-android"></i>
+          Android 
+        </p>
+        <p>
+          <i class="fab fa-windows"></i>
+          Microsoft Office – basic 
+        </p>
+        <p>
+          <i class="fab fa-ubuntu" class="i"></i>
+          Ubuntu-Linux          
+        </p>
+        <p>
+          <i class="fab fa-html5" class="i"></i>
+          HTML-Beginner
+        </p>
+        <p>
+          <i class="fab fa-css3-alt" class="i"></i>
+          CSS-Beginner
+        </p>
+        <p>
+          <i class="fab fa-python" class="i"></i>
+          PYTHON-Beginner
+        </p>
+        <p>
+          <i class="fab fa-js-square" class="i"></i>
+          JAVASCRIPT-Beginner
+        </p>
+      </div>
+      </div>
+      <div class="right">
+        <h1>Educational Background</h1>
       <p class="p">Matriculated in 2018 at Alexander Sinton-Bachelors Degree.</p>
       <br />
       <h1>Passion Board</h1>
@@ -101,9 +123,10 @@
         Watching anime and documentaries <br />
         Exercise and keeping fit.
       </p>
+      </div>
     </div>
      <div class="card-container" id="card-container">
-     <h1 class="my-projects" id="my-projects">My Projects</h1>
+      <h1 class="my-projects" id="my-projects">My Projects</h1>
       <div class="cards">
         <div class="card">
           <img
@@ -213,7 +236,7 @@
       <div class="Test"></div>
       <div
         class="testimonials-items item1"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-duration="500"
         data-aos-anchor-placement="top-bottom"
       >
         <h2 class="testimonial-H">Justin Calvert</h2>
@@ -231,7 +254,7 @@
       </div>
       <div
         class="testimonials-items item2"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-duration="500"
         data-aos-anchor-placement="top-bottom"
       >
         <h2 class="testimonial-H">Jesse Terblanche</h2>
@@ -250,7 +273,7 @@
       </div>
       <div
         class="testimonials-items item3"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-duration="500"
         data-aos-anchor-placement="top-bottom"
       >
         <h2 class="testimonial-H">Zoe Strachan</h2>
@@ -270,7 +293,7 @@
       </div>
       <div
         class="testimonials-items item4"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-duration="500"
         data-aos-anchor-placement="top-bottom"
       >
         <h2 class="testimonial-H">Abdullah Isaacs</h2>
@@ -289,7 +312,7 @@
       </div>
       <div
         class="testimonials-items item5"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-duration="500"
         data-aos-anchor-placement="top-bottom"
       >
         <h2 class="testimonial-H">Jason Wandrag</h2>
@@ -307,7 +330,7 @@
       </div>
       <div
         class="testimonials-items item6"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-duration="500"
         data-aos-anchor-placement="top-bottom"
       >
         <h2 class="testimonial-H">Thapelo Tsotetsi</h2>
@@ -325,7 +348,7 @@
     </div>
     </div>
 
-    <div class="form-container">
+    <div class="form-container" id="contact">
       <form class="form" action="https://formspree.io/f/xoqyejle" method="POST">
         <div class="form-group">
           <h1 style="color: #caed89;">Contact Form</h1>
@@ -393,10 +416,10 @@
       </div>
 
     </div>
-    
+    <script src="./nav.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
   </body>
 </html>
