@@ -45,7 +45,7 @@
           <h1 class="a">About Me</h1>
       </div>
       <div class="about-me-desc" id="about-me-desc">
-        <img src="./images/IMG_20210510_133538.jpg" alt="" width="400" height="500" />
+        <img src="./images/IMG_20210510_133538.jpg" alt="" width="400" height="500" class="me" />
         <div class="about-me-info" id="about-me-info">
           <h1>Hi I am Kiyaamodien Khan.</h1>
           <p class="p">
@@ -68,6 +68,35 @@
             </p>
           </div>
         </div>
+      </div>
+      <div class="details-container">
+       <h1>Details</h1>
+        <ul class="details-list">
+          <li class="details1"><span>
+            Full Name : Kiyaamodien Khan
+          </span></li>
+          <li class="details2"><span>
+            Date Of Birth: 19-09-1999
+          </span> </li>
+          <li class="details3"><span>
+            Address : 28 Osterly Road, Glen View/Crawford
+          </span> </li>
+          <li class="details4"><span>
+            Phone : 067-813-1251/081 584 1944
+          </span> </li>
+          <li class="details5"><span>
+            Email Address : kiyaamudienkhan@gmail.com
+          </span> </li>
+          <li class="details6"><span>
+            Languages : English
+          </span> </li>
+          <li class="details7"><span>
+            Criminal Record : No
+          </span> </li>
+          <li class="details8"><span>
+          Drivers License : No
+          </span> </li>
+        </ul>
       </div>
     </section>
     <div class="Skill" id="Skill">
@@ -236,8 +265,7 @@
       <div class="Test"></div>
       <div
         class="testimonials-items item1"
-        data-aos="fade-up" data-aos-duration="500"
-        data-aos-anchor-placement="top-bottom"
+        data-aos="fade-up"
       >
         <h2 class="testimonial-H">Justin Calvert</h2>
         <h3 class="testimonial-H">Peer</h3>
@@ -254,8 +282,7 @@
       </div>
       <div
         class="testimonials-items item2"
-        data-aos="fade-up" data-aos-duration="500"
-        data-aos-anchor-placement="top-bottom"
+        data-aos="fade-up"
       >
         <h2 class="testimonial-H">Jesse Terblanche</h2>
         <h3 class="testimonial-H">Peer</h3>
@@ -273,8 +300,7 @@
       </div>
       <div
         class="testimonials-items item3"
-        data-aos="fade-up" data-aos-duration="500"
-        data-aos-anchor-placement="top-bottom"
+        data-aos="fade-up" 
       >
         <h2 class="testimonial-H">Zoe Strachan</h2>
         <h3 class="testimonial-H">Peer</h3>
@@ -293,8 +319,7 @@
       </div>
       <div
         class="testimonials-items item4"
-        data-aos="fade-up" data-aos-duration="500"
-        data-aos-anchor-placement="top-bottom"
+        data-aos="fade-up"
       >
         <h2 class="testimonial-H">Abdullah Isaacs</h2>
         <h3 class="testimonial-H">Peer</h3>
@@ -312,8 +337,7 @@
       </div>
       <div
         class="testimonials-items item5"
-        data-aos="fade-up" data-aos-duration="500"
-        data-aos-anchor-placement="top-bottom"
+        data-aos="fade-up" 
       >
         <h2 class="testimonial-H">Jason Wandrag</h2>
         <h3 class="testimonial-H">Lecturer</h3>
@@ -330,8 +354,7 @@
       </div>
       <div
         class="testimonials-items item6"
-        data-aos="fade-up" data-aos-duration="500"
-        data-aos-anchor-placement="top-bottom"
+        data-aos="fade-up"
       >
         <h2 class="testimonial-H">Thapelo Tsotetsi</h2>
         <h3 class="testimonial-H">Lecturer</h3>
@@ -419,7 +442,10 @@
     <script src="./nav.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        offset: 100,
+        duration: 1500,
+      });
     </script>
   </body>
 </html>
