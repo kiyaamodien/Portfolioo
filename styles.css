@@ -114,6 +114,9 @@ h2 {
   margin-top: 30px;
   border: 2px solid;
   padding: 30px;
+  margin-left: 14%;
+  margin-top: 8%;
+  margin-bottom: 1%;
 }
 
 .details-list li span {
@@ -130,11 +133,17 @@ h2 {
   color: #caed89;
   background-color: #191a1c;
   width: 100vw;
-  padding: 10%;
+  padding: 6%;
+}
+
+.left {
+  padding-right: 6%;
+  margin-right: 6%;
 }
 
 .sk {
   border: 2px solid;
+  margin-right: 6%;
 }
 
 .right {
@@ -142,6 +151,12 @@ h2 {
 }
 .skill-heads {
   margin-top: -60px;
+}
+
+.pb {
+  border: 2px solid;
+  color: #caed89;
+  text-decoration-color: white;
 }
 
 .i {
@@ -275,6 +290,7 @@ h2 {
   width: 100%;
   padding: 5px 40px;
   background-color: #191a1c;
+  color: #caed89;
 }
 
 .form-item {
@@ -318,6 +334,9 @@ h2 {
   width: 500px;
   align-items: center;
   background-color: #191a1c;
+  margin-bottom: 20px;
+  border: 2px solid;
+  color: #caed89;
 }
 
 .form-container {
@@ -327,6 +346,10 @@ h2 {
   background-color: #191a1c;
   font-family: "Odibee Sans", cursive;
   color: white;
+}
+
+.details-container {
+  color: #caed89;
 }
 
 .more-info {
