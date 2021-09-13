@@ -544,4 +544,11 @@ h2 {
     grid-row: 6;
     grid-column: 5;
   }
+
+  .more-info {
+    margin-left: 0px;
+    font-family: "Odibee Sans", cursive;
+    align-self: center;
+    font-size: 8px;
+  }
 }
